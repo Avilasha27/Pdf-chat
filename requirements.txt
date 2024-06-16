@@ -1,0 +1,8 @@
+streamlit
+PyPDF2
+langchain_text_splitters
+langchain_cohere
+langchain_community
+langchain_groq
+langchain
+
