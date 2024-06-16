@@ -17,6 +17,9 @@ This project utilizes Streamlit to create a web application that allows users to
 
 ## Usage
 
+Run the application on cloud using this link: https://pdf-convo-app.streamlit.app/
+
+Or run it locally using the following steps:
 1. Run the application:
    ```bash
    streamlit run app.py
