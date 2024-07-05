@@ -40,7 +40,7 @@ def get_vectorstore(text_chunks):
 def get_conversation_chain(vector_store):
     llm = ChatGroq(
         temperature=0.5,
-        groq_api_key="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",
+        groq_api_key="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",
         model_name="llama3-8b-8192",
     )
     memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
