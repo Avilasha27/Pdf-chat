@@ -31,7 +31,7 @@ def get_text_chunks(text):
 def get_vectorstore(text_chunks):
     embeddings = CohereEmbeddings(
         model="embed-english-light-v3.0",
-        cohere_api_key="NjuLHkaVWYyTk478CtkIZjRb2wcGzqsKsGKMjvbn",
+        cohere_api_key="wizOoaGGGldTZ8PEzpfB7udmmWs7akjb31xN4u33",
     )
     vectorstore = FAISS.from_texts(texts=text_chunks, embedding=embeddings)
     return vectorstore
